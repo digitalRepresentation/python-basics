@@ -45,3 +45,7 @@ a = 3
 b = 5
 a, b = b, a
 print(a, b)
+
+if a == 5:
+    print("test");
+        #print("test");
