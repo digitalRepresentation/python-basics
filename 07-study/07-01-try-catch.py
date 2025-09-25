@@ -39,14 +39,14 @@ except (ZeroDivisionError, IndexError) as e:
 #     print("test")
 #     print(e)
 
-class Bird:
-    def fly(self):
-        raise NotImplementedError
-
-class Eagle(Bird):
-    def __init__(self):
-        print("test")
-
-eagle = Eagle()
-eagle.fly()
+# class Bird:
+#     def fly(self):
+#         raise NotImplementedError
+#
+# class Eagle(Bird):
+#     def __init__(self):
+#         print("test")
+#
+# eagle = Eagle()
+# eagle.fly()
 
